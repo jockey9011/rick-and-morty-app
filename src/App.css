@@ -1,0 +1,129 @@
+.resident__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2em;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 280px;
+}
+
+.app-title {
+  background-image: url(./assets/img/morty.png);
+  background-repeat: no-repeat;
+  background-size:cover;
+  width: 600px;
+  height: 230px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.resident__inputSearch {
+  height: 30px;
+  width: 300px;
+  border-radius: 10px;
+  border: 3px solid #02b1c8;
+}
+
+.resident__buttonSearch {
+  background-color: #02b1c8;
+  color: white;
+  border-radius: 10px;
+  width: 150px;
+}
+
+.resident__buttonSearch:hover {
+  background-color: white;
+  color: #02b1c8;
+  border-radius: 10px;
+}
+
+.app-form {
+  display: flex;
+  gap: 1em;
+}
+
+.pagination {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.pagination button {
+  padding: 0.5em 1em;
+  cursor: pointer;
+  border: none;
+  background-color: #02b1c8;
+  color: white;
+  font-weight: bold;
+}
+
+.pagination button.active {
+  background-color: #02b1c8;
+}
+
+.resident__not {
+  color: white;
+  position: absolute;
+  margin-top: 270px;
+  margin-left: 90px;
+}
+
+.resident__not__image {
+ background-image: url(./assets/img/not-morty.png);
+ background-size: contain;
+ background-repeat: no-repeat;
+ color: white;
+ width: 150vw;
+ height: 30vh;
+ margin-top: 20px;
+ margin-left: 2200px;
+}
+
+@media (max-width: 550px) {
+
+  .app-title {
+    background-image: url(./assets/img/morty.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+    width: 70vw;
+    height: 20vh;
+    margin-bottom: -30px;
+  }
+
+  .resident__buttonSearch {
+    background-color: #02b1c8;
+    color: white;
+    border-radius: 10px;
+    width: 70px;
+  }
+
+  .resident__not {
+    color: white;
+    position: absolute;
+    margin-top: 170px;
+    margin-left: 20px;
+    font-size: 15px;
+  }
+  
+  .resident__not__image {
+   background-image: url(./assets/img/not-morty.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+   color: white;
+   width: 80vw;
+   height: 15vh;
+   margin-top: 20px;
+   margin-right: 2220px;
+  }
+
+}

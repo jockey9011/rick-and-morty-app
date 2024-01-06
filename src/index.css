@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Poppins', sans-serif;
+  background-image: url(./assets/img/rick_morty.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 10%; /* Ajusta el valor según sea necesario */
+  margin-top: -300px;
+  width: 100%;
+  height: 100%;
+}
+
+
+body {
+  margin: 0;
+  background-color: #1b2855;
+  min-height: 650px;
+  margin-top: 556px;
+}
+
+h1, h2, h3, h4, p, ul, hr {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+input, button {
+  font-family: inherit;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+input {
+  outline: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
