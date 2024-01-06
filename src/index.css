@@ -6,22 +6,22 @@
 
 html {
   font-family: 'Poppins', sans-serif;
-  background-image: url(./assets/img/rick_morty.png);
+  background-image: url(./assets/img/Rick-and-Morty-large.png);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 50% 10%; /* Ajusta el valor según sea necesario */
-  margin-top: -300px;
+  background-position: 50% -10%; /* Ajusta el valor según sea necesario */
+  margin-top: -20vh; /* Ajusta según sea necesario */
   width: 100%;
-  height: 100%;
+  height: 100vh; /* Cambiado a vh para adaptarse al 100% del viewport height */
 }
-
 
 body {
   margin: 0;
   background-color: #1b2855;
-  min-height: 650px;
-  margin-top: 556px;
+  min-height: 100vh; /* Cambiado a vh para asegurar que el cuerpo ocupe al menos el 100% del viewport height */
+  margin-top: 30vh; /* Ajusta según sea necesario */
 }
+
 
 h1, h2, h3, h4, p, ul, hr {
   margin-top: 0;

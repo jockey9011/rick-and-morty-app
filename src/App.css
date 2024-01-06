@@ -73,28 +73,38 @@
 
 .resident__not {
   color: white;
-  position: absolute;
-  margin-top: 270px;
-  margin-left: 90px;
+  top: 50%;
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .resident__not__image {
- background-image: url(./assets/img/not-morty.png);
- background-size: contain;
- background-repeat: no-repeat;
- color: white;
- width: 150vw;
- height: 30vh;
- margin-top: 20px;
- margin-left: 2200px;
+  background-image: url(./assets/img/not-morty.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  color: white;
+  width: 80vw;
+  max-width: 300px; /* Ajustado para ser más grande */
+  height: 50vh; /* Ajustado para ser más grande */
+  max-height: 200px; /* Ajustado para ser más grande */
+  margin-top: 10vh;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  display: block;
 }
 
-@media (max-width: 1000px) {
 
+
+
+
+
+@media (max-width: 550px) {
   .app-title {
     background-image: url(./assets/img/morty.png);
     background-repeat: no-repeat;
-    background-size:contain;
+    background-size: contain;
     width: 70vw;
     height: 20vh;
     margin-bottom: -30px;
@@ -105,25 +115,6 @@
     color: white;
     border-radius: 10px;
     width: 70px;
-  }
-
-  .resident__not {
-    color: white;
-    position: absolute;
-    margin-top: 170px;
-    margin-left: 20px;
-    font-size: 15px;
-  }
-  
-  .resident__not__image {
-   background-image: url(./assets/img/not-morty.png);
-   background-size: cover;
-   background-repeat: no-repeat;
-   color: white;
-   width: 80vw;
-   height: 15vh;
-   margin-top: 20px;
-   margin-right: 2220px;
   }
 
 }

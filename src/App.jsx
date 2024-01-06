@@ -48,7 +48,10 @@ function App() {
       {
         !isValidInput
       
-          ? <h2 className='resident__not__image'><span className='resident__not'>Hey! You must provide an id from 1 to 126</span></h2>
+          ? <>
+          <div className='resident__not__image'></div>
+          <h2 className='resident__not'>Hey! You must provide an id from 1 to 126</h2>
+        </>
           
           : (
             <>

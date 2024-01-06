@@ -2,22 +2,22 @@
   display: flex;
   justify-content: center;
   color: white;
-  margin-top: 20px;
-  font-size: 30px;
+  margin-top: 2vh; /* Ajusta según sea necesario */
+  font-size: 2.5vw; /* Ajusta según sea necesario */
 }
 
 .location__resident {
   display: flex;
   flex-direction: row;
-  gap: 2rem;
-  margin-top: 20px;
-  margin-bottom: 50px;
+  gap: 2vw; /* Ajusta según sea necesario */
+  margin-top: 2vh; /* Ajusta según sea necesario */
+  margin-bottom: 5vh; /* Ajusta según sea necesario */
   border: 1px solid;
-  padding: 20px 30px;
+  padding: 2vh 3vw; /* Ajusta según sea necesario */
   color: white;
   background-color: #02b1c8;
-  border-radius: 10px;
-  
+  border-radius: 1vw; /* Ajusta según sea necesario */
+  justify-content: center;
 }
 
 .location__item {
@@ -26,11 +26,5 @@
   align-items: center;
 }
 
-@media (max-width: 1000px) {
 
-  .location__item {
 
-  font-size: 13px;
-
-}
-}
